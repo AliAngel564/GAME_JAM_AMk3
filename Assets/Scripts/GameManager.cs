@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("Cooldown Básico: " + habilidades.getContadorCooldownBasico());
         Debug.Log("Cooldown Pesado: " + habilidades.getContadorCooldownPesado());
         Debug.Log("Cooldown Curación: " + habilidades.getContadorCooldownPesado());
+        Debug.Log("Cooldown Ulti: " + habilidades.getContadorCooldownUlti());
         
     }
 

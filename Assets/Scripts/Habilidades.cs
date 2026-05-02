@@ -145,7 +145,7 @@ public class Habilidades : MonoBehaviour
 
     public void Curar()
     {
-        if (jugador != null)
+        if (jugador && contadorCooldownCurar == cooldownCurar)
         {
             jugador.CurarJugador(curacion);
             lienzo.ActualizarUI();
