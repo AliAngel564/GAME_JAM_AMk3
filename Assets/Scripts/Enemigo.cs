@@ -38,7 +38,6 @@ public class Enemigo : MonoBehaviour
     {
         if (enemigoSprite.Length > 0)
         {
-
             int indiceAleatorio = Random.Range(0, enemigoSprite.Length);
             enemigoRenderer.sprite = enemigoSprite[indiceAleatorio];
         }
@@ -61,7 +60,6 @@ public class Enemigo : MonoBehaviour
         yield return new WaitForSecondsRealtime(2f);
         jugador.TomarDanio(danio);
         lienzo.ActualizarUI();
-        yield return null;
     }
 
     public int ObtenerVida()
@@ -97,6 +95,7 @@ public class Enemigo : MonoBehaviour
                 vida = 20;
                 vidaMaxima = 20;
                 danio = 5;
+                //enemigoRenderer.color = Color.blue;
                 break;
 
             case 2:
