@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using System.Collections.Generic;
 using UnityEngine;
@@ -101,6 +102,7 @@ public class GameManager : MonoBehaviour
         if(EnemigosEnTablero == EnemigosDerrotados) //si todos los enemigos son derrotados entonces pasa de ronda
         {
             EnemigosDerrotados = 0;
+            StartCoroutine(CooldownNuevaRonda());
             Rondas();
         }
     }
@@ -116,8 +118,9 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void ManageCooldowns()
+    IEnumerator CooldownNuevaRonda()
     {
-        
+        yield return new WaitForSecondsRealtime(5f);
+        yield return null;
     }
 }

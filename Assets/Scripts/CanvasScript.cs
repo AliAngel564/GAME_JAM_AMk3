@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -14,7 +15,12 @@ public class CanvasScript : MonoBehaviour
     [SerializeField] private GameManager gm;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    /*void Start()
+    {
+        ActualizarUI();
+    }*/
+
+    private void Update()
     {
         ActualizarUI();
     }

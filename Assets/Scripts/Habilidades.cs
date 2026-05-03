@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -73,7 +74,10 @@ public class Habilidades : MonoBehaviour
         {
             enemigo.RecibirDanio(danioBasico);
             lienzo.ActualizarUI();
-            enemigo.Atacar();
+            if (enemigo.ObtenerVida() > 0)
+            {
+                StartCoroutine(enemigo.Atacar());
+            }
             
             if(contadorCooldownBasico < cooldownBasico)
             {
@@ -113,7 +117,11 @@ public class Habilidades : MonoBehaviour
         {
             enemigo.RecibirDanio(danioPesado);
             lienzo.ActualizarUI();
-            enemigo.Atacar();
+            if (enemigo.ObtenerVida() > 0)
+            {
+                StartCoroutine(enemigo.Atacar());
+            }
+            
             
             if(contadorCooldownBasico < cooldownBasico)
             {
@@ -149,7 +157,10 @@ public class Habilidades : MonoBehaviour
         {
             jugador.CurarJugador(curacion);
             lienzo.ActualizarUI();
-            enemigo.Atacar();
+            if (enemigo.ObtenerVida() > 0)
+            {
+                StartCoroutine(enemigo.Atacar());
+            }
             
             if(contadorCooldownBasico < cooldownBasico)
             {
@@ -186,7 +197,11 @@ public class Habilidades : MonoBehaviour
         {
             jugador.CurarJugador(curacionUlti);
             enemigo.RecibirDanio(danioUlti);
-            
+            lienzo.ActualizarUI();
+            if (enemigo.ObtenerVida() > 0)
+            {
+                StartCoroutine(enemigo.Atacar());
+            }
             if(contadorCooldownBasico < cooldownBasico)
             {
                 contadorCooldownBasico++;
@@ -232,4 +247,5 @@ public class Habilidades : MonoBehaviour
     public int getContadorCooldownCurar() {
         return contadorCooldownCurar;
     }
+    
 }

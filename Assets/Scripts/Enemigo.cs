@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Enemigo : MonoBehaviour
@@ -13,17 +14,24 @@ public class Enemigo : MonoBehaviour
     [SerializeField] private CanvasScript lienzo;
     [SerializeField] private Sprite[] enemigoSprite;
 
+    [Header("Apoyo Visual o nose")] [SerializeField]
+    private ParticleSystem particulasDanio;
+    
     private SpriteRenderer enemigoRenderer;
+    private Color colorInicial;
 
     private void Awake()
     {
         enemigoRenderer = GetComponent<SpriteRenderer>();
+        particulasDanio = GetComponentInChildren<ParticleSystem>();
+        particulasDanio.Stop();
     }
 
 
     private void Start()
     {
         ElegirSpriteAleatorio();
+        colorInicial = enemigoRenderer.material.color;
     }
 
     public void ElegirSpriteAleatorio()
@@ -38,18 +46,22 @@ public class Enemigo : MonoBehaviour
 
     public void RecibirDanio(int cantidadDanio)
     {
+        StartCoroutine(RecibirDañoVisual());
         vida -= cantidadDanio;
-
+        
         if (vida <= 0)
         {
-            Morir();
+            vida = 0;
+            StartCoroutine(Morir());
         }
     }
 
-    public void Atacar()
+    public IEnumerator Atacar()
     {
+        yield return new WaitForSecondsRealtime(2f);
         jugador.TomarDanio(danio);
         lienzo.ActualizarUI();
+        yield return null;
     }
 
     public int ObtenerVida()
@@ -69,9 +81,11 @@ public class Enemigo : MonoBehaviour
         }
     }
 
-    void Morir()
+    IEnumerator Morir()
     {
+        yield return new WaitForSecondsRealtime(3f);
         gm.VerificaEnemigos(this);
+        yield return new WaitForSecondsRealtime(1f);
         Destroy(gameObject); // PLOOOOOOOOOOOOOOOOWJHDVWKJSBBQLEKVBNWLKE
     }
 
@@ -102,5 +116,17 @@ public class Enemigo : MonoBehaviour
     public void AsignarGameManager(GameManager gameManager)
     {
         gm = gameManager;
+    }
+
+    IEnumerator RecibirDañoVisual()
+    {
+        particulasDanio.Play();
+        yield return null;
+    }
+
+    public IEnumerator DelayAtacar()
+    {
+        yield return new WaitForSecondsRealtime(5f);
+        yield return null;
     }
 }
