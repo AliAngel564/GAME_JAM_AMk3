@@ -9,6 +9,7 @@ public class Personaje : MonoBehaviour
     public int vidaJugadorMaximo = 80;
 
     [SerializeField] private ParticleSystem particulasDanio;
+    [SerializeField] private GameManager gm;
 
     private void Awake()
     {
@@ -25,9 +26,12 @@ public class Personaje : MonoBehaviour
         StartCoroutine(RecibirDañoVisual());
         vidaJugador -= damage;
 
-        if (vidaJugador < 0)
+        if (vidaJugador <= 0)
         {
             vidaJugador = 0;
+            gm.Derrota();
+            Debug.Log("Derrota");
+
         }
     }
 

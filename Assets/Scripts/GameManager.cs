@@ -6,10 +6,14 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [Header("Conexion")]
-    [SerializeField] private GameObject Enemigo;
+    [Header("Conexion")] [SerializeField] private GameObject Enemigo;
     [SerializeField] private CanvasScript lienzo;
     [SerializeField] private Habilidades habilidades;
+
+    [Header("Pantallas UI")] [SerializeField]
+    private GameObject pantallaVictoria;
+
+    [SerializeField] private GameObject pantallaDerrota;
 
     private int EnemigosEnTablero = 0;
     public int Ronda = 0;
@@ -21,7 +25,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         Rondas();
-        
+
     }
 
     private void Update()
@@ -30,10 +34,12 @@ public class GameManager : MonoBehaviour
         Debug.Log("Cooldown Pesado: " + habilidades.getContadorCooldownPesado());
         Debug.Log("Cooldown Curación: " + habilidades.getContadorCooldownPesado());
         Debug.Log("Cooldown Ulti: " + habilidades.getContadorCooldownUlti());
-        
+
     }
 
-    private void GenerarEnemigo(int param_tipoEnemigo, float param_posicionEnemigo) //Enemigo de tipo 1 es normal, Enemigo de tipo 2 es especial y Enemigo de tipo 3 es el jefe
+    private void
+        GenerarEnemigo(int param_tipoEnemigo,
+            float param_posicionEnemigo) //Enemigo de tipo 1 es normal, Enemigo de tipo 2 es especial y Enemigo de tipo 3 es el jefe
     {
         GameObject EnemigoGenerado = Instantiate(Enemigo);
         EnemigoGenerado.transform.position = transform.position + new Vector3(param_posicionEnemigo, -1.8f, 0);
@@ -79,11 +85,12 @@ public class GameManager : MonoBehaviour
                 EnemigosEnTablero = 1;
                 break;
             case 6:
-                //win
+                Victoria();
                 break;
 
         }
     }
+
 
     public void VerificaEnemigos(Enemigo param_EnemigoDerrotado)
     {
@@ -94,12 +101,13 @@ public class GameManager : MonoBehaviour
         if (enemigosVivos.Count > 0)
         {
             enemigoActual = enemigosVivos[0];
-        } else
+        }
+        else
         {
             enemigoActual = null;
         }
 
-        if(EnemigosEnTablero == EnemigosDerrotados) //si todos los enemigos son derrotados entonces pasa de ronda
+        if (EnemigosEnTablero == EnemigosDerrotados) //si todos los enemigos son derrotados entonces pasa de ronda
         {
             EnemigosDerrotados = 0;
             StartCoroutine(CooldownNuevaRonda());
@@ -122,5 +130,26 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(5f);
         yield return null;
+    }
+
+    public void Victoria()
+    {
+        if (pantallaVictoria != null)
+        {
+            pantallaVictoria.SetActive(true);
+            Time.timeScale = 0;
+            Debug.Log("Victoria !!");
+        }
+    }
+
+    public void Derrota()
+    {
+        if (pantallaDerrota != null)
+        {
+            pantallaDerrota.SetActive(true);
+            Time.timeScale = 0;
+            Debug.Log("Derrota!!");
+        }
+
     }
 }

@@ -1,0 +1,2288 @@
+fileFormatVersion: 2
+guid: b7262f3033b8e044f8bd451db41693e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1314004168889401887
+    second: "Ara\xF1a_0"
+  - first:
+      213: -8368039112098983488
+    second: "Ara\xF1a_1"
+  - first:
+      213: 2014967230054676596
+    second: "Ara\xF1a_2"
+  - first:
+      213: -5163903640293949894
+    second: "Ara\xF1a_3"
+  - first:
+      213: -9127350153779860848
+    second: "Ara\xF1a_4"
+  - first:
+      213: 2746507474691046992
+    second: "Ara\xF1a_5"
+  - first:
+      213: -2835415910227619474
+    second: "Ara\xF1a_6"
+  - first:
+      213: 9159374820716693548
+    second: "Ara\xF1a_7"
+  - first:
+      213: -7923630648439347667
+    second: "Ara\xF1a_8"
+  - first:
+      213: -1372641686875192520
+    second: "Ara\xF1a_9"
+  - first:
+      213: -1879723758503283785
+    second: "Ara\xF1a_10"
+  - first:
+      213: -8618348690170499287
+    second: "Ara\xF1a_11"
+  - first:
+      213: -280325563176949639
+    second: "Ara\xF1a_12"
+  - first:
+      213: -654690159840002847
+    second: "Ara\xF1a_13"
+  - first:
+      213: 6248078825194854002
+    second: "Ara\xF1a_14"
+  - first:
+      213: 253028965924435238
+    second: "Ara\xF1a_15"
+  - first:
+      213: 3891940360609915639
+    second: "Ara\xF1a_16"
+  - first:
+      213: 546724536479284842
+    second: "Ara\xF1a_17"
+  - first:
+      213: 1141357360461431637
+    second: "Ara\xF1a_18"
+  - first:
+      213: 9055419825016066332
+    second: "Ara\xF1a_19"
+  - first:
+      213: -3961650068790890854
+    second: "Ara\xF1a_20"
+  - first:
+      213: 3567296815185522520
+    second: "Ara\xF1a_21"
+  - first:
+      213: 5386583109683192640
+    second: "Ara\xF1a_22"
+  - first:
+      213: 1876892055210551106
+    second: "Ara\xF1a_23"
+  - first:
+      213: -8111337127096596580
+    second: "Ara\xF1a_24"
+  - first:
+      213: 3899840731436068517
+    second: "Ara\xF1a_25"
+  - first:
+      213: -1302315659219268068
+    second: "Ara\xF1a_26"
+  - first:
+      213: -3883245809242360277
+    second: "Ara\xF1a_27"
+  - first:
+      213: 4704413430404124720
+    second: "Ara\xF1a_28"
+  - first:
+      213: -115082491501899071
+    second: "Ara\xF1a_29"
+  - first:
+      213: 4762906959476342883
+    second: "Ara\xF1a_30"
+  - first:
+      213: 2200197343263129752
+    second: "Ara\xF1a_31"
+  - first:
+      213: -6831356973675214941
+    second: "Ara\xF1a_32"
+  - first:
+      213: -801612283810510285
+    second: "Ara\xF1a_33"
+  - first:
+      213: -2180531487003714509
+    second: "Ara\xF1a_34"
+  - first:
+      213: 405344700455288042
+    second: "Ara\xF1a_35"
+  - first:
+      213: -7744422646669823104
+    second: "Ara\xF1a_36"
+  - first:
+      213: 6988527685229044032
+    second: "Ara\xF1a_37"
+  - first:
+      213: 3866076619862207660
+    second: "Ara\xF1a_38"
+  - first:
+      213: 2948694703068556525
+    second: "Ara\xF1a_39"
+  - first:
+      213: 495794065405870357
+    second: "Ara\xF1a_40"
+  - first:
+      213: 3302906485810952568
+    second: "Ara\xF1a_41"
+  - first:
+      213: -4469471477836255280
+    second: "Ara\xF1a_42"
+  - first:
+      213: 4461082444163183876
+    second: "Ara\xF1a_43"
+  - first:
+      213: 4942992965785411093
+    second: "Ara\xF1a_44"
+  - first:
+      213: -2598304542706408581
+    second: "Ara\xF1a_45"
+  - first:
+      213: 7831846699432116090
+    second: "Ara\xF1a_46"
+  - first:
+      213: -929094773940946991
+    second: "Ara\xF1a_47"
+  - first:
+      213: -9111938793606694851
+    second: "Ara\xF1a_48"
+  - first:
+      213: 2709030185556815360
+    second: "Ara\xF1a_49"
+  - first:
+      213: 1055008007257068935
+    second: "Ara\xF1a_50"
+  - first:
+      213: 7026261019958446250
+    second: "Ara\xF1a_51"
+  - first:
+      213: 5585776564847301750
+    second: "Ara\xF1a_52"
+  - first:
+      213: -408700568537850764
+    second: "Ara\xF1a_53"
+  - first:
+      213: 215478576216652471
+    second: "Ara\xF1a_54"
+  - first:
+      213: -5445249502542782565
+    second: "Ara\xF1a_55"
+  - first:
+      213: -1816330617322468427
+    second: "Ara\xF1a_56"
+  - first:
+      213: -7907644671824479554
+    second: "Ara\xF1a_57"
+  - first:
+      213: 963800947301795505
+    second: "Ara\xF1a_58"
+  - first:
+      213: 4680892803487328135
+    second: "Ara\xF1a_59"
+  - first:
+      213: -4568291801617450618
+    second: "Ara\xF1a_60"
+  - first:
+      213: -3172195912491112640
+    second: "Ara\xF1a_61"
+  - first:
+      213: -3580972752650556608
+    second: "Ara\xF1a_62"
+  - first:
+      213: -983622681250967990
+    second: "Ara\xF1a_63"
+  - first:
+      213: -3010331261268134475
+    second: "Ara\xF1a_64"
+  - first:
+      213: -3036054237814948661
+    second: "Ara\xF1a_65"
+  - first:
+      213: 5958852967257126524
+    second: "Ara\xF1a_66"
+  - first:
+      213: 5897878585538244731
+    second: "Ara\xF1a_67"
+  - first:
+      213: 4216964648217099443
+    second: "Ara\xF1a_68"
+  - first:
+      213: -1577746899712067384
+    second: "Ara\xF1a_69"
+  - first:
+      213: 8353995790523737458
+    second: "Ara\xF1a_70"
+  - first:
+      213: -8792013404337678463
+    second: "Ara\xF1a_71"
+  - first:
+      213: -871929142075913367
+    second: "Ara\xF1a_72"
+  - first:
+      213: 7539256099394260363
+    second: "Ara\xF1a_73"
+  - first:
+      213: -6877402057876095739
+    second: "Ara\xF1a_74"
+  - first:
+      213: 2652782360972359189
+    second: "Ara\xF1a_75"
+  - first:
+      213: 5463747292469650530
+    second: "Ara\xF1a_76"
+  - first:
+      213: 8029760506439322251
+    second: "Ara\xF1a_77"
+  - first:
+      213: 7729610768369380161
+    second: "Ara\xF1a_78"
+  - first:
+      213: 5873800007998359080
+    second: "Ara\xF1a_79"
+  - first:
+      213: 5446361037357652803
+    second: "Ara\xF1a_80"
+  - first:
+      213: -4679875879777898012
+    second: "Ara\xF1a_81"
+  - first:
+      213: -4352199553559599434
+    second: "Ara\xF1a_82"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Ara\xF1a_0"
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 169
+        width: 1131
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edf6f79b28b3cde0800000000000000
+      internalID: -1314004168889401887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_1"
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 593
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1d3c863c0cedb80800000000000000
+      internalID: -8368039112098983488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_2"
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 499
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478367d150a96fb10800000000000000
+      internalID: 2014967230054676596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_3"
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 539
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ebee9aff02658b0800000000000000
+      internalID: -5163903640293949894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_4"
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 562
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a2857d463255180800000000000000
+      internalID: -9127350153779860848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_5"
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 554
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e3ae12ffd8d1620800000000000000
+      internalID: 2746507474691046992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_6"
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 540
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e615468904496a8d0800000000000000
+      internalID: -2835415910227619474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_7"
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 484
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28c979fed2ac1f70800000000000000
+      internalID: 9159374820716693548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_8"
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 550
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26ef5c08eb990290800000000000000
+      internalID: -7923630648439347667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_9"
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 530
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83349e988a563fce0800000000000000
+      internalID: -1372641686875192520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_10"
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 536
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3bc8a6331e9e5e0800000000000000
+      internalID: -1879723758503283785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_11"
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 530
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f2feb3789756880800000000000000
+      internalID: -8618348690170499287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_12"
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 527
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9786061b2651c1cf0800000000000000
+      internalID: -280325563176949639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_13"
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 513
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecfac0b4c21ae6f0800000000000000
+      internalID: -654690159840002847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_14"
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 534
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27611687692a5b650800000000000000
+      internalID: 6248078825194854002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_15"
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 517
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6257fcff080f28300800000000000000
+      internalID: 253028965924435238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_16"
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 473
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2e8293323f20630800000000000000
+      internalID: 3891940360609915639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_17"
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 512
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e76dab11b569700800000000000000
+      internalID: 546724536479284842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_18"
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 514
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553c410e87ae6df00800000000000000
+      internalID: 1141357360461431637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_19"
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 508
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11dc1a6a505bad70800000000000000
+      internalID: 9055419825016066332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_20"
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 510
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e215d80446509c0800000000000000
+      internalID: -3961650068790890854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_21"
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 510
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fe3859d85918130800000000000000
+      internalID: 3567296815185522520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_22"
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 500
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04329c58cccf0ca40800000000000000
+      internalID: 5386583109683192640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_23"
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 503
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247e398416f0c0a10800000000000000
+      internalID: 1876892055210551106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_24"
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 458
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9748fdcbddbe6f80800000000000000
+      internalID: -8111337127096596580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_25"
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 493
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aea8d5ab740f1630800000000000000
+      internalID: 3899840731436068517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_26"
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 458
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e8ec2dece3dede0800000000000000
+      internalID: -1302315659219268068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_27"
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 451
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26b594c280fb1ac0800000000000000
+      internalID: -3883245809242360277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_28"
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 476
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03090d3071f694140800000000000000
+      internalID: 4704413430404124720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_29"
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 462
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2992e6515276ef0800000000000000
+      internalID: -115082491501899071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_30"
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 467
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360c2d905ae391240800000000000000
+      internalID: 4762906959476342883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_31"
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 443
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89005f893dba88e10800000000000000
+      internalID: 2200197343263129752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_32"
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 433
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7833ac6052231a0800000000000000
+      internalID: -6831356973675214941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_33"
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 454
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a82efffd910e4f0800000000000000
+      internalID: -801612283810510285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_34"
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 440
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cd69f5a223db1e0800000000000000
+      internalID: -2180531487003714509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_35"
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 345
+        width: 69
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec79328bd210a500800000000000000
+      internalID: 405344700455288042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_36"
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 416
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08331c272a8468490800000000000000
+      internalID: -7744422646669823104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_37"
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 389
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0416f0527ec3cf060800000000000000
+      internalID: 6988527685229044032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_38"
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 397
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac6451d33017a530800000000000000
+      internalID: 3866076619862207660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_39"
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 380
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec2a77a53edbe820800000000000000
+      internalID: 2948694703068556525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_40"
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 383
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511834e531a61e600800000000000000
+      internalID: 495794065405870357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_41"
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 378
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879781503f746dd20800000000000000
+      internalID: 3302906485810952568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_42"
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 371
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df64d50f5f39f1c0800000000000000
+      internalID: -4469471477836255280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_43"
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 378
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405f31ed8d2f8ed30800000000000000
+      internalID: 4461082444163183876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_44"
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 374
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ed4ecc9e9099440800000000000000
+      internalID: 4942992965785411093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_45"
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 375
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7363b9e8c7f0fbd0800000000000000
+      internalID: -2598304542706408581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_46"
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 352
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f77f6041f40bc60800000000000000
+      internalID: 7831846699432116090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_47"
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 368
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7f394c9313b13f0800000000000000
+      internalID: -929094773940946991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_48"
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 370
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38b8ffb1f3eb8180800000000000000
+      internalID: -9111938793606694851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_49"
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 357
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00eace7c998689520800000000000000
+      internalID: 2709030185556815360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_50"
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 354
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78510c3613424ae00800000000000000
+      internalID: 1055008007257068935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_51"
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 354
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa80cc1cb2b428160800000000000000
+      internalID: 7026261019958446250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_52"
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 363
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674dc66e03aa48d40800000000000000
+      internalID: 5585776564847301750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_53"
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 346
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c1dc09ff0045af0800000000000000
+      internalID: -408700568537850764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_54"
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 334
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bab9189f988df200800000000000000
+      internalID: 215478576216652471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_55"
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 350
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f90977d669e64b0800000000000000
+      internalID: -5445249502542782565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_56"
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 343
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb04d74de81bc6e0800000000000000
+      internalID: -1816330617322468427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_57"
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 311
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba34e54117624290800000000000000
+      internalID: -7907644671824479554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_58"
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 350
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6cb1aeadb106d00800000000000000
+      internalID: 963800947301795505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_59"
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 329
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7876b8f443fd5f040800000000000000
+      internalID: 4680892803487328135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_60"
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 296
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689334e6fca2a90c0800000000000000
+      internalID: -4568291801617450618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_61"
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 342
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0476506ef981af3d0800000000000000
+      internalID: -3172195912491112640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_62"
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 319
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b29e71144dd4ec0800000000000000
+      internalID: -3580972752650556608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_63"
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 305
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ec40302687952f0800000000000000
+      internalID: -983622681250967990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_64"
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 312
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5fbd3daa72936d0800000000000000
+      internalID: -3010331261268134475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_65"
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 318
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc7834a1c4cdd5d0800000000000000
+      internalID: -3036054237814948661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_66"
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 330
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76b42ec33912b250800000000000000
+      internalID: 5958852967257126524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_67"
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 321
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70f363435979d150800000000000000
+      internalID: 5897878585538244731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_68"
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 330
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc3c5f410ba58a30800000000000000
+      internalID: 4216964648217099443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_69"
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 311
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c83031dd87ba1ae0800000000000000
+      internalID: -1577746899712067384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_70"
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 314
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275a64df8ea5fe370800000000000000
+      internalID: 8353995790523737458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_71"
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 320
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187dafd046e7cf580800000000000000
+      internalID: -8792013404337678463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_72"
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 319
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b0141a01946e3f0800000000000000
+      internalID: -871929142075913367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_73"
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 317
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d871b4a71d0a860800000000000000
+      internalID: 7539256099394260363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_74"
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 321
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d31c2344f8e80a0800000000000000
+      internalID: -6877402057876095739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_75"
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 289
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516fd24908390d420800000000000000
+      internalID: 2652782360972359189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_76"
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 285
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264e72ed63123db40800000000000000
+      internalID: 5463747292469650530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_77"
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 304
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ac6c913a07f6f60800000000000000
+      internalID: 8029760506439322251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_78"
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 263
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14be0b46a08154b60800000000000000
+      internalID: 7729610768369380161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_79"
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 301
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826cd6e8cfde38150800000000000000
+      internalID: 5873800007998359080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_80"
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 301
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b1b36e18c559b40800000000000000
+      internalID: 5446361037357652803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_81"
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 292
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e17be0beadbd0fb0800000000000000
+      internalID: -4679875879777898012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ara\xF1a_82"
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 308
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b66772a091e993c0800000000000000
+      internalID: -4352199553559599434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Ara\xF1a_0": -1314004168889401887
+      "Ara\xF1a_1": -8368039112098983488
+      "Ara\xF1a_10": -1879723758503283785
+      "Ara\xF1a_11": -8618348690170499287
+      "Ara\xF1a_12": -280325563176949639
+      "Ara\xF1a_13": -654690159840002847
+      "Ara\xF1a_14": 6248078825194854002
+      "Ara\xF1a_15": 253028965924435238
+      "Ara\xF1a_16": 3891940360609915639
+      "Ara\xF1a_17": 546724536479284842
+      "Ara\xF1a_18": 1141357360461431637
+      "Ara\xF1a_19": 9055419825016066332
+      "Ara\xF1a_2": 2014967230054676596
+      "Ara\xF1a_20": -3961650068790890854
+      "Ara\xF1a_21": 3567296815185522520
+      "Ara\xF1a_22": 5386583109683192640
+      "Ara\xF1a_23": 1876892055210551106
+      "Ara\xF1a_24": -8111337127096596580
+      "Ara\xF1a_25": 3899840731436068517
+      "Ara\xF1a_26": -1302315659219268068
+      "Ara\xF1a_27": -3883245809242360277
+      "Ara\xF1a_28": 4704413430404124720
+      "Ara\xF1a_29": -115082491501899071
+      "Ara\xF1a_3": -5163903640293949894
+      "Ara\xF1a_30": 4762906959476342883
+      "Ara\xF1a_31": 2200197343263129752
+      "Ara\xF1a_32": -6831356973675214941
+      "Ara\xF1a_33": -801612283810510285
+      "Ara\xF1a_34": -2180531487003714509
+      "Ara\xF1a_35": 405344700455288042
+      "Ara\xF1a_36": -7744422646669823104
+      "Ara\xF1a_37": 6988527685229044032
+      "Ara\xF1a_38": 3866076619862207660
+      "Ara\xF1a_39": 2948694703068556525
+      "Ara\xF1a_4": -9127350153779860848
+      "Ara\xF1a_40": 495794065405870357
+      "Ara\xF1a_41": 3302906485810952568
+      "Ara\xF1a_42": -4469471477836255280
+      "Ara\xF1a_43": 4461082444163183876
+      "Ara\xF1a_44": 4942992965785411093
+      "Ara\xF1a_45": -2598304542706408581
+      "Ara\xF1a_46": 7831846699432116090
+      "Ara\xF1a_47": -929094773940946991
+      "Ara\xF1a_48": -9111938793606694851
+      "Ara\xF1a_49": 2709030185556815360
+      "Ara\xF1a_5": 2746507474691046992
+      "Ara\xF1a_50": 1055008007257068935
+      "Ara\xF1a_51": 7026261019958446250
+      "Ara\xF1a_52": 5585776564847301750
+      "Ara\xF1a_53": -408700568537850764
+      "Ara\xF1a_54": 215478576216652471
+      "Ara\xF1a_55": -5445249502542782565
+      "Ara\xF1a_56": -1816330617322468427
+      "Ara\xF1a_57": -7907644671824479554
+      "Ara\xF1a_58": 963800947301795505
+      "Ara\xF1a_59": 4680892803487328135
+      "Ara\xF1a_6": -2835415910227619474
+      "Ara\xF1a_60": -4568291801617450618
+      "Ara\xF1a_61": -3172195912491112640
+      "Ara\xF1a_62": -3580972752650556608
+      "Ara\xF1a_63": -983622681250967990
+      "Ara\xF1a_64": -3010331261268134475
+      "Ara\xF1a_65": -3036054237814948661
+      "Ara\xF1a_66": 5958852967257126524
+      "Ara\xF1a_67": 5897878585538244731
+      "Ara\xF1a_68": 4216964648217099443
+      "Ara\xF1a_69": -1577746899712067384
+      "Ara\xF1a_7": 9159374820716693548
+      "Ara\xF1a_70": 8353995790523737458
+      "Ara\xF1a_71": -8792013404337678463
+      "Ara\xF1a_72": -871929142075913367
+      "Ara\xF1a_73": 7539256099394260363
+      "Ara\xF1a_74": -6877402057876095739
+      "Ara\xF1a_75": 2652782360972359189
+      "Ara\xF1a_76": 5463747292469650530
+      "Ara\xF1a_77": 8029760506439322251
+      "Ara\xF1a_78": 7729610768369380161
+      "Ara\xF1a_79": 5873800007998359080
+      "Ara\xF1a_8": -7923630648439347667
+      "Ara\xF1a_80": 5446361037357652803
+      "Ara\xF1a_81": -4679875879777898012
+      "Ara\xF1a_82": -4352199553559599434
+      "Ara\xF1a_9": -1372641686875192520
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
