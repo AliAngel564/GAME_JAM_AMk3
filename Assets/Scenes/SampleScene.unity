@@ -926,7 +926,7 @@ GameObject:
   - component: {fileID: 421301282}
   - component: {fileID: 421301281}
   m_Layer: 0
-  m_Name: EventSystem
+  m_Name: EventSystem.
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7153,7 +7153,7 @@ MonoBehaviour:
   _btnAtaquePesado: {fileID: 277779222}
   _btnRemate: {fileID: 1082874792}
   _btnCuracion: {fileID: 1281744828}
-  Ronda: 4
+  Ronda: 0
 --- !u!4 &1338130973
 Transform:
   m_ObjectHideFlags: 0
@@ -7899,6 +7899,7 @@ MonoBehaviour:
   - {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   _animator: {fileID: 0}
   particulasDanio: {fileID: 0}
+  isBoss: 0
 --- !u!212 &1699415292
 SpriteRenderer:
   serializedVersion: 2
