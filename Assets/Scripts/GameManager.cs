@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,19 +12,23 @@ public class GameManager : MonoBehaviour
     [SerializeField] private CanvasScript lienzo;
     [SerializeField] private Habilidades habilidades;
 
-    [Header("Pantallas UI")] [SerializeField]
-    private GameObject pantallaVictoria;
+    [Header("Pantallas UI")]
+    [SerializeField]private GameObject pantallaVictoria;
     [SerializeField] private GameObject pantallaDerrota;
 
-    [Header("Componentes Habilidades")] 
-    [SerializeField] private Image _imagenAtaquePesado;
+    [Header("Componentes Habilidades")] [SerializeField]
+    private Image _imagenAtaquePesado;
+
     [SerializeField] private Image _imagenRemate;
     [SerializeField] private Image _imagenCuracion;
-    
-    [Header("Botones Habilidades")]
-    [SerializeField] private Button _btnAtaquePesado;
+
+    [Header("Botones Habilidades")] [SerializeField]
+    private Button _btnAtaquePesado;
+
     [SerializeField] private Button _btnRemate;
     [SerializeField] private Button _btnCuracion;
+
+    [Header("Musica")] [SerializeField] private MusicManager musicManager;
 
     private int EnemigosEnTablero = 0;
     public int Ronda = 0;
@@ -36,6 +41,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        musicManager.PlayMusicDefault();
         Rondas();
         colorBaseBoton = _imagenAtaquePesado.color;
         _btnAtaquePesado.onClick.AddListener(ClickBtnPesado);
@@ -52,20 +58,29 @@ public class GameManager : MonoBehaviour
         CambiarColorBotones();
     }
 
-    private void
-        GenerarEnemigo(int param_tipoEnemigo,
-            float param_posicionEnemigo) //Enemigo de tipo 1 es normal, Enemigo de tipo 2 es especial y Enemigo de tipo 3 es el jefe
+    private void GenerarEnemigo(int param_tipoEnemigo, float param_posicionEnemigo)
     {
         GameObject EnemigoGenerado = Instantiate(Enemigo);
-        EnemigoGenerado.transform.position = transform.position + new Vector3(param_posicionEnemigo, -1.8f, 0);
+
+
+        Vector3 posicionFinal = transform.position + new Vector3(param_posicionEnemigo, -0.8f, 0);
+
+
+        EnemigoGenerado.transform.position = posicionFinal;
+
+
         Enemigo enemigoScript = EnemigoGenerado.GetComponentInChildren<Enemigo>();
+
+
         enemigoScript.TipoEnemigo(param_tipoEnemigo);
         enemigoScript.AsignarGameManager(this);
 
-        enemigosVivos.Add(enemigoScript);
 
+
+        enemigosVivos.Add(enemigoScript);
         enemigoActual = enemigoScript;
     }
+
 
     private void Rondas()
     {
@@ -77,29 +92,31 @@ public class GameManager : MonoBehaviour
         switch (Ronda)
         {
             case 1:
-                GenerarEnemigo(1, 7f);
+                GenerarEnemigo(1, 6f);
                 EnemigosEnTablero = 1;
                 lienzo.ActualizarUI();
                 break;
             case 2:
-                GenerarEnemigo(1, 7f);
-                GenerarEnemigo(1, 4f);
+                GenerarEnemigo(1, 6f);
+                GenerarEnemigo(1, 3f);
                 EnemigosEnTablero = 2;
                 break;
             case 3:
-                GenerarEnemigo(2, 7f);
+                GenerarEnemigo(2, 6f);
                 EnemigosEnTablero = 1;
                 break;
             case 4:
-                GenerarEnemigo(2, 7f);
-                GenerarEnemigo(1, 4f);
+                GenerarEnemigo(2, 6f);
+                GenerarEnemigo(1, 3f);
                 EnemigosEnTablero = 2;
                 break;
             case 5:
+                musicManager.PlayMusicBossfight();
                 GenerarEnemigo(3, 7f);
                 EnemigosEnTablero = 1;
                 break;
             case 6:
+                musicManager.PlayMusicCredits();
                 Victoria();
                 break;
 
@@ -152,6 +169,7 @@ public class GameManager : MonoBehaviour
         if (pantallaVictoria != null)
         {
             pantallaVictoria.SetActive(true);
+            
             Time.timeScale = 0;
             Debug.Log("Victoria !!");
         }
@@ -161,6 +179,7 @@ public class GameManager : MonoBehaviour
     {
         if (pantallaDerrota != null)
         {
+            musicManager.PlayMusicCredits();
             pantallaDerrota.SetActive(true);
             Time.timeScale = 0;
             Debug.Log("Derrota!!");
@@ -168,9 +187,12 @@ public class GameManager : MonoBehaviour
 
     }
 
-    
+    public void RegresarMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
 
-    public int GetTurnos()
+public int GetTurnos()
     {
         return habilidades.turnos;
     }

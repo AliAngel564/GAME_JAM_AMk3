@@ -26,6 +26,9 @@ public class Habilidades : MonoBehaviour
     public float cooldownUlti = 3;
     public float cooldownCurar = 3;
 
+    [Header("SFX Manager")] 
+    [SerializeField] private SFXManager sfx;
+    
     private float contadorCooldownBasico = 0;
     private float contadorCooldownPesado = 0;
     private float contadorCooldownUlti = 0;
@@ -51,7 +54,7 @@ public class Habilidades : MonoBehaviour
 
         if (enemigo != null && contadorCooldownBasico == cooldownBasico)
         {
-           
+           sfx.PlayLightSlash();
             enemigo.RecibirDanio(danioBasico);
             lienzo.ActualizarUI();
             if (enemigo.ObtenerVida() > 0)
@@ -95,7 +98,7 @@ public class Habilidades : MonoBehaviour
 
         if (enemigo != null && contadorCooldownPesado == cooldownPesado)
         {
-            
+            sfx.PlayHeavySlash();
             ataquePesadoDisponible = true;
             enemigo.RecibirDanio(danioPesado);
             lienzo.ActualizarUI();
@@ -138,6 +141,7 @@ public class Habilidades : MonoBehaviour
         if (jugador && contadorCooldownCurar == cooldownCurar)
         {
             curarDisponible = true;
+            sfx.PlayHealing();
             jugador.CurarJugador(curacion);
             lienzo.ActualizarUI();
             if (enemigo.ObtenerVida() > 0)
@@ -179,6 +183,7 @@ public class Habilidades : MonoBehaviour
 
         if (jugador&& enemigo && contadorCooldownUlti == cooldownUlti)
         {
+            sfx.PlayUltimate();
             ataqueUltiDisponible = true;
             jugador.CurarJugador(curacionUlti);
             enemigo.RecibirDanio(danioUlti);
