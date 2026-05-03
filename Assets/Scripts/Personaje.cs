@@ -10,6 +10,7 @@ public class Personaje : MonoBehaviour
 
     [SerializeField] private ParticleSystem particulasDanio;
     [SerializeField] private GameManager gm;
+    [SerializeField] private Animator _animator;
 
     private void Awake()
     {
@@ -47,6 +48,7 @@ public class Personaje : MonoBehaviour
     }
     IEnumerator RecibirDañoVisual()
     {
+        _animator.SetTrigger("Danio");
         particulasDanio.Play();
         yield return null;
     }

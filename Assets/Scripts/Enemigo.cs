@@ -12,34 +12,39 @@ public class Enemigo : MonoBehaviour
     [SerializeField] private GameManager gm;
     [SerializeField] private Personaje jugador;
     [SerializeField] private CanvasScript lienzo;
-    [SerializeField] private Sprite[] enemigoSprite;
+    [SerializeField] private GameObject[] enemigoSprite;
+    [SerializeField] private Animator _animator;
 
     [Header("Apoyo Visual o nose")] [SerializeField]
     private ParticleSystem particulasDanio;
     
     private SpriteRenderer enemigoRenderer;
     private Color colorInicial;
-
+    private int indiceAleatorio;
+    public bool isBoss = false;
+    
     private void Awake()
     {
-        enemigoRenderer = GetComponent<SpriteRenderer>();
+        enemigoRenderer = GetComponentInChildren<SpriteRenderer>();
         particulasDanio = GetComponentInChildren<ParticleSystem>();
         particulasDanio.Stop();
+        gm = FindAnyObjectByType<GameManager>();
+        jugador = FindAnyObjectByType<Personaje>();
+        lienzo = FindAnyObjectByType<CanvasScript>();
     }
 
 
     private void Start()
     {
         ElegirSpriteAleatorio();
-        colorInicial = enemigoRenderer.material.color;
     }
 
     public void ElegirSpriteAleatorio()
     {
-        if (enemigoSprite.Length > 0)
+        if (2 > 0 && isBoss == false)
         {
-            int indiceAleatorio = Random.Range(0, enemigoSprite.Length);
-            enemigoRenderer.sprite = enemigoSprite[indiceAleatorio];
+            indiceAleatorio = Random.Range(0, 2);
+            enemigoSprite[indiceAleatorio].SetActive(true);
         }
     }
 
@@ -60,6 +65,8 @@ public class Enemigo : MonoBehaviour
         yield return new WaitForSecondsRealtime(2f);
         jugador.TomarDanio(danio);
         lienzo.ActualizarUI();
+        yield return new WaitForSecondsRealtime(2f);
+        gm.AumentarTurno();
     }
 
     public int ObtenerVida()
@@ -81,9 +88,12 @@ public class Enemigo : MonoBehaviour
 
     IEnumerator Morir()
     {
-        yield return new WaitForSecondsRealtime(3f);
+        _animator.SetBool("estaMuerto",true);
+        yield return new WaitForSecondsRealtime(2f);
+        enemigoSprite[indiceAleatorio].SetActive(false);
+        yield return new WaitForSecondsRealtime(2f);
         gm.VerificaEnemigos(this);
-        yield return new WaitForSecondsRealtime(1f);
+        gm.AumentarTurno();
         Destroy(gameObject); // PLOOOOOOOOOOOOOOOOWJHDVWKJSBBQLEKVBNWLKE
     }
 
@@ -105,6 +115,9 @@ public class Enemigo : MonoBehaviour
                 break;
 
             case 3:
+                isBoss = true;
+                enemigoSprite[indiceAleatorio].SetActive(false);
+                enemigoSprite[3].SetActive(true);
                 vida = 80;
                 vidaMaxima = 80;
                 danio = 20;
@@ -119,6 +132,7 @@ public class Enemigo : MonoBehaviour
 
     IEnumerator RecibirDañoVisual()
     {
+        _animator.SetTrigger("Danio");
         particulasDanio.Play();
         yield return null;
     }
@@ -128,4 +142,5 @@ public class Enemigo : MonoBehaviour
         yield return new WaitForSecondsRealtime(5f);
         yield return null;
     }
+    
 }

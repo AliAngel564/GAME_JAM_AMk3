@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CanvasScript : MonoBehaviour
 {
@@ -9,16 +10,23 @@ public class CanvasScript : MonoBehaviour
     [SerializeField] private TextMeshProUGUI vidaDelJugador;
     [SerializeField] private TextMeshProUGUI vidaDelEnemigo1;
     [SerializeField] private TextMeshProUGUI vidaDelEnemigo2;
+    [SerializeField] private TextMeshProUGUI numRonda;
+    [SerializeField] private TextMeshProUGUI contTurnos;
 
     [Header("Conexiónes")]
     [SerializeField] private Personaje jugador;
     [SerializeField] private GameManager gm;
-
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     /*void Start()
     {
         ActualizarUI();
     }*/
+
+    private void Start()
+    {
+        
+    }
 
     private void Update()
     {
@@ -34,6 +42,8 @@ public class CanvasScript : MonoBehaviour
     {
         cambiarVidaJugador();
         mostrarVidaEnemigos();
+        MostrarRonda();
+        MostrarTurnos();
     }
 
     private void mostrarVidaEnemigos()
@@ -57,5 +67,15 @@ public class CanvasScript : MonoBehaviour
         {
             vidaDelEnemigo2.text = "";
         }
+    }
+
+    private void MostrarRonda()
+    {
+        numRonda.text = "Ronda: " + gm.Ronda.ToString();
+    }
+
+    private void MostrarTurnos()
+    {
+        contTurnos.text = "Turnos: " + gm.GetTurnos();
     }
 }

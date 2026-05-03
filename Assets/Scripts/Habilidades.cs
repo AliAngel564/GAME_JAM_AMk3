@@ -21,19 +21,22 @@ public class Habilidades : MonoBehaviour
     public int curacionUlti = 30;
 
     [Header("Cooldown")]
-    public int cooldownBasico = 3;
-    public int cooldownPesado = 3;
-    public int cooldownUlti = 3;
-    public int cooldownCurar = 3;
+    public float cooldownBasico = 3;
+    public float cooldownPesado = 3;
+    public float cooldownUlti = 3;
+    public float cooldownCurar = 3;
 
-    private int contadorCooldownBasico = 0;
-    private int contadorCooldownPesado = 0;
-    private int contadorCooldownUlti = 0;
-    private int contadorCooldownCurar = 0;
+    private float contadorCooldownBasico = 0;
+    private float contadorCooldownPesado = 0;
+    private float contadorCooldownUlti = 0;
+    private float contadorCooldownCurar = 0;
+
+    private bool ataquePesadoDisponible = true;
+    private bool ataqueUltiDisponible = true;
+    private bool curarDisponible = true;
+
+    public int turnos = 1;
     
-    private float cooldownTime = 0;
-
-
     private void Start()
     {
         contadorCooldownBasico = cooldownBasico;
@@ -42,36 +45,13 @@ public class Habilidades : MonoBehaviour
         contadorCooldownCurar = cooldownCurar;
     }
 
-    void Update()
-    {
-        if (Keyboard.current.qKey.wasPressedThisFrame)
-        {
-            AtaqueBasico();
-        }
-
-        if (Keyboard.current.wKey.wasPressedThisFrame && Time.time >= cooldownTime)
-        {
-            AtaquePesado();
-            cooldownTime = Time.time + cooldownBasico;
-        }
-
-        if (Keyboard.current.eKey.wasPressedThisFrame)
-        {
-            Curar();
-        }
-
-        if (Keyboard.current.rKey.wasPressedThisFrame)
-        {
-            Ulti();
-        }
-    }
-
     public void AtaqueBasico()
     {
         Enemigo enemigo = gm.ObtenerEnemigoActual();
 
         if (enemigo != null && contadorCooldownBasico == cooldownBasico)
         {
+           
             enemigo.RecibirDanio(danioBasico);
             lienzo.ActualizarUI();
             if (enemigo.ObtenerVida() > 0)
@@ -115,14 +95,14 @@ public class Habilidades : MonoBehaviour
 
         if (enemigo != null && contadorCooldownPesado == cooldownPesado)
         {
+            
+            ataquePesadoDisponible = true;
             enemigo.RecibirDanio(danioPesado);
             lienzo.ActualizarUI();
             if (enemigo.ObtenerVida() > 0)
             {
                 StartCoroutine(enemigo.Atacar());
             }
-            
-            
             if(contadorCooldownBasico < cooldownBasico)
             {
                 contadorCooldownBasico++;
@@ -130,9 +110,11 @@ public class Habilidades : MonoBehaviour
             if (contadorCooldownPesado < cooldownPesado)
             {
                 contadorCooldownPesado++;
-            }else
+            }
+            if(ataquePesadoDisponible)
             {
                 contadorCooldownPesado = 0;
+                ataquePesadoDisponible = false;
             }
             if (contadorCooldownUlti < cooldownUlti)
             {
@@ -155,6 +137,7 @@ public class Habilidades : MonoBehaviour
     {
         if (jugador && contadorCooldownCurar == cooldownCurar)
         {
+            curarDisponible = true;
             jugador.CurarJugador(curacion);
             lienzo.ActualizarUI();
             if (enemigo.ObtenerVida() > 0)
@@ -181,6 +164,7 @@ public class Habilidades : MonoBehaviour
             }else
             {
                 contadorCooldownCurar = 0;
+                curarDisponible = false;
             }
         }
         else
@@ -195,6 +179,7 @@ public class Habilidades : MonoBehaviour
 
         if (jugador&& enemigo && contadorCooldownUlti == cooldownUlti)
         {
+            ataqueUltiDisponible = true;
             jugador.CurarJugador(curacionUlti);
             enemigo.RecibirDanio(danioUlti);
             lienzo.ActualizarUI();
@@ -213,9 +198,11 @@ public class Habilidades : MonoBehaviour
             if (contadorCooldownUlti < cooldownUlti)
             {
                 contadorCooldownUlti++;
-            }else
+            }
+            else
             {
                 contadorCooldownUlti = 0;
+                ataqueUltiDisponible = false;
             }
             if (contadorCooldownCurar < cooldownCurar)
             {
@@ -232,20 +219,47 @@ public class Habilidades : MonoBehaviour
         */
     }
     
-    public int getContadorCooldownBasico() {
+    public float getContadorCooldownBasico() {
         return contadorCooldownBasico;
     }
 
-    public int getContadorCooldownPesado() {
+    public float getContadorCooldownPesado() {
         return contadorCooldownPesado;
     }
 
-    public int getContadorCooldownUlti() {
+    public float getContadorCooldownUlti() {
         return contadorCooldownUlti;
     }
 
-    public int getContadorCooldownCurar() {
+    public float getContadorCooldownCurar() {
         return contadorCooldownCurar;
     }
     
+    public float getCooldownBasico() {
+        return cooldownBasico;
+    }
+
+    public float getCooldownPesado() {
+        return cooldownPesado;
+    }
+
+    public float getCooldownUlti() {
+        return cooldownUlti;
+    }
+
+    public float getCooldownCurar() {
+        return cooldownCurar;
+    }
+    
+    public bool getAtaquePesadoDisponible() {
+        return ataquePesadoDisponible;
+    }
+
+    public bool getAtaqueUltiDisponible() {
+        return ataqueUltiDisponible;
+    }
+
+    public bool getCurarDisponible() {
+        return curarDisponible;
+    }
 }
