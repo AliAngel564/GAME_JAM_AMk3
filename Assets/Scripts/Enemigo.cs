@@ -19,6 +19,7 @@ public class Enemigo : MonoBehaviour
    [SerializeField] private CanvasScript lienzo;
    [SerializeField] private GameObject[] enemigoSprite;
    [SerializeField] private Animator _animator;
+   [SerializeField] private SFXManager sfx;
 
    [Header("Apoyo Visual o nose")] [SerializeField]
    private ParticleSystem particulasDanio;

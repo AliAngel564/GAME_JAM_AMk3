@@ -49,7 +49,7 @@ public class Personaje : MonoBehaviour
     }
     IEnumerator RecibirDañoVisual()
     {
-        
+        sfx.PlayHeavySlash();
         _animator.SetTrigger("Danio");
         particulasDanio.Play();
         yield return null;
